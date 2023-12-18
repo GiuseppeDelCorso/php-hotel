@@ -40,7 +40,7 @@
 
     ];
     foreach ($hotels as $lista){
-            echo $lista
+            echo $lista;
         };
     ?> 
 <!DOCTYPE html>
