@@ -42,17 +42,23 @@
     ?> 
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
-    </head>
-    <body>
-        <?php
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+     <?php
         foreach ($hotels as $lista){
-            echo $lista;
+            ?>
+            <h1><?php echo $lista["name"]?></h1>
+            <h1><?php echo $lista["description"]?></h1>
             <h1><?php echo $lista["vote"]?></h1>
-            };
+            <h1><?php echo $lista["distance_to_center"]?></h1>
+            <?php echo "<br><br>"?>
+            <?php echo "<br><br>"?>
+            <?php };
         ?>
 </body>
 </html>
