@@ -51,6 +51,6 @@
     <title>Document</title>
 </head>
 <body>
-    <h1><?php echo "$lista[name]"?></h1>
+    <h1><?php echo $lista["name"]?></h1>
 </body>
 </html>
